@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- bitDroid on top of LineageOS 24: put this in .repo/local_manifests/ -->
+<manifest>
+  <remote name="bitdroid" fetch="https://github.com/bitDroidOS" />
+  <remove-project name="LineageOS/android_lineage-sdk" />
+  <project path="lineage-sdk" name="android_lineage-sdk" remote="bitdroid" revision="bitdroid" />
+  <remove-project name="LineageOS/android_packages_apps_Aperture" />
+  <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="bitdroid" revision="bitdroid" />
+  <remove-project name="LineageOS/android_packages_apps_Contacts" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="bitdroid" revision="bitdroid" />
+  <remove-project name="LineageOS/android_packages_apps_DeskClock" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="bitdroid" revision="bitdroid" />
+  <remove-project name="LineageOS/android_packages_apps_DocumentsUI" />
+  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="bitdroid" revision="bitdroid" />
+  <remove-project name="LineageOS/android_packages_apps_Etar" />
+  <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="bitdroid" revision="bitdroid" />
+  <remove-project name="LineageOS/android_packages_apps_ExactCalculator" />
+  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="bitdroid" revision="bitdroid" />
+  <remove-project name="LineageOS/android_packages_apps_Glimpse" />
+  <project path="packages/apps/Glimpse" name="android_packages_apps_Glimpse" remote="bitdroid" revision="bitdroid" />
+  <remove-project name="LineageOS/android_packages_apps_Jelly" />
+  <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="bitdroid" revision="bitdroid" />
+  <remove-project name="LineageOS/android_packages_apps_Launcher3" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="bitdroid" revision="bitdroid" />
+  <remove-project name="LineageOS/android_packages_apps_Recorder" />
+  <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="bitdroid" revision="bitdroid" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="bitdroid" revision="bitdroid" />
+  <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
+  <project path="packages/apps/SetupWizard" name="android_packages_apps_SetupWizard" remote="bitdroid" revision="bitdroid" />
+  <remove-project name="LineageOS/android_packages_apps_ThemePicker" />
+  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="bitdroid" revision="bitdroid" />
+  <remove-project name="LineageOS/android_packages_apps_Updater" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="bitdroid" revision="bitdroid" />
+  <remove-project name="LineageOS/android_system_update_engine" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="bitdroid" revision="bitdroid" />
+  <remove-project name="LineageOS/android_vendor_lineage" />
+  <project path="vendor/lineage" name="android_vendor_lineage" remote="bitdroid" revision="bitdroid" />
+</manifest>
